@@ -220,16 +220,16 @@ REM ============================================================
 REM 8. ABRIR RELATORIO.PDF
 REM ============================================================
 
-echo [6/6] Abrindo relatorio.pdf...
+echo [6/6] Abrindo relatorio_darwin_population.pdf...
 
-if exist "relatorio.pdf" (
+if exist "relatorio_darwin_population.pdf" (
 
-    echo [OK] Abrindo relatorio.pdf...
-    start "" "relatorio.pdf"
+    echo [OK] Abrindo relatorio_darwin_population.pdf...
+    start "" "relatorio_darwin_population.pdf"
 
 ) else (
 
-    echo [AVISO] relatorio.pdf nao encontrado!
+    echo [AVISO] relatorio_darwin_population.pdf nao encontrado!
 
 )
 
